@@ -22,7 +22,11 @@ with(data, {
              ylab="Energy sub metering", xlab="", cex.lab=0.8)
         lines(Sub_metering_2~Datetime,col='Red')
         lines(Sub_metering_3~Datetime,col='Blue')
+<<<<<<< HEAD
         legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, bty="n", cex=0.7, inset=.02, 
+=======
+        legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, bty="n", 
+>>>>>>> 993cf1e2bdb8445b934d9f2cda56e1acf5a6b3f8
                legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
         plot(Global_reactive_power~Datetime, type="l", 
              ylab="Global_rective_power",xlab="datetime", cex.lab=0.8)
